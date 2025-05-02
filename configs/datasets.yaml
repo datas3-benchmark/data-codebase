@@ -1,0 +1,35 @@
+GeoDE:
+    csv_root_path: '/data/vision/beery/scratch/neha/task-datacomp/all_datasets/GeoDE/splits/'
+    img_root_path: "/data/vision/beery/scratch/neha/task-datacomp/all_datasets/GeoDE/splits/geode/images/"
+    task_list: ["test1", "test2", "test3", "test4"]
+    training_task: "classification"
+AutoArborist:
+    csv_root_path: '/data/vision/beery/scratch/neha/task-datacomp/all_datasets/AutoArborist/splits/'
+    img_root_path: '/data/vision/beery/scratch/neha/task-datacomp/all_datasets/AutoArborist/'
+    task_list: ["test1", "test2", "test3", "test4"]
+    training_task: "classification"
+iWildCam:
+    csv_root_path: '/data/vision/beery/scratch/neha/task-datacomp/all_datasets/iWildCam/'
+    img_root_path: '/data/vision/beery/scratch/neha/task-datacomp/all_datasets/iWildCam/iwildcam_v2.0/train/'
+    task_list: ["test1", "test2", "test3", "test4"]
+    training_task: "classification"
+SelfDrivingCar:
+    csv_root_path: '/data/vision/beery/scratch/neha/task-datacomp/all_datasets/SelfDrivingCar/splits/'
+    img_root_path: '/data/vision/beery/scratch/neha/task-datacomp/all_datasets/SelfDrivingCar/images/'
+    task_list: ["test1", "test2", "test3", "test4"]
+    training_task: "regression"
+FMoW:
+    task_list: ["test1", "test2", "test3", "test4"]
+    training_task: "classification"
+FishDetection:
+    csv_root_path: "/data/vision/beery/scratch/neha/task-datacomp/all_datasets/FishDetection/splits/"
+    img_root_path: '/data/vision/beery/scratch/fish_detection/fish_detection_ss/fish-detection-ss-yolo-640p/'
+    task_list: ["test1", "test2", "test3", "test4"]
+    training_task: "detection"
+ReID:
+    csv_root_path: "/data/vision/beery/scratch/neha/task-datacomp/all_datasets/ReID/splits/"
+    img_root_path: '/archive/vision/beery/animal_reid/datasets/wildlife-datasets/'
+    task_list: ["test1", "test2", "test3", "test4"]
+    training_task: "reid"
+
+
